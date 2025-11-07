@@ -71,7 +71,27 @@ public class Main {
       else {
          System.out.println("noo ur young boi get ur age up");
       }
+      // ELSE IF chained
+      // when accounting for multi answers
+      int battery = 0;
+      // Alwats start blovk w ith an if statemrnt
+      if ( battery >= 95 ) {
+         System.out.println("unpulggy");
+      }
+      // order matters for else if tingys
+      // as soon as a condition is met, rest of chain is skippepdd
+      else if (battery == 67) {
+         System.out.println("blud ts boiii 67");
+      }
+      else if (battery < 67 > 1) {
+         System.out.println("boii ts not 67");
+      }
+      else {
+         System.out.println("ded");
+      }
+      //
       
+      // close main` 
 
 
 
