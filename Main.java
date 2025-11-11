@@ -83,7 +83,7 @@ public class Main {
       else if (battery == 67) {
          System.out.println("blud ts boiii 67");
       }
-      else if (battery < 67 > 1) {
+      else if (battery < 67    ) {
          System.out.println("boii ts not 67");
       }
       else {
@@ -92,11 +92,61 @@ public class Main {
       //
       
       // close main` 
+   // compiound boolean expressions
+
+      boolean cleanedRoom = true;
+      boolean didHw = false;
+      // && joins two exp
+
+      if (cleanedRoom == true && didHw == true) {
+         System.out.println("ig u can go");
+      }
+      else {
+         System.out.println("no");
+      }
+
+      // THe or op "||" joins two req 1 to be true less restrict
+
+      if (cleanedRoom == true ||  didHw == true) {
+         System.out.println("ig u can go");
+      }
+      else {
+         System.out.println("no");
+      }
+
+      // not op can be used to negate exp (!)
+
+      if (!(didHw == true)) {
+         System.out.println("do hw");
+      }
+      // boolean variables can be used instead of full exp
+
+      // IMP NOTE ABT STRNGXs adn other object data typreds
+      // cant use == op to checl equality FOR STRINGS, use .equals()
+      String course = "AP CS";
+      if (course.equals("AP CS")) {
+         System.out.println("java u take");
+      }
+      else {
+         System.out.println("uhh no picl");
+      }
+
+         // case sens
 
 
+      String msg1 = "Hello World";
+       String msg2 = "Hello World";
 
+       if (msg1.equals(msg2)) {
+         System.out.println("equal");
+       }
 
+       // u can mix variables w string lits
+       // both literealsdown
 
+       if ("hih".equals("hih")) {
+         System.out.println("hewo");
+       }
 
 
 
